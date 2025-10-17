@@ -27,12 +27,12 @@ export default function Navigation({ isScrolled }: NavigationProps) {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-20 h-20 relative">
+            <div className="w-40 h-40 relative animate-float group-hover:animate-float-slow transition-all duration-300">
               <Image
-                src="https://cdn.builder.io/api/v1/image/assets%2F6a80af1db8104ff4a1b5bea732d858c0%2Fc4b4f4c16393483386ef584ec66c5150?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F6a80af1db8104ff4a1b5bea732d858c0%2F1843af1eee8b4a01afa8c033b736cb31?format=webp&width=800"
                 alt="Telleria Detailing Logo"
                 fill
-                className="object-contain"
+                className="object-contain group-hover:drop-shadow-lg"
               />
             </div>
           </Link>
@@ -69,7 +69,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
           <div className="hidden md:flex items-center gap-4">
             <a
               href="tel:(786)571-1063"
-              className="px-6 py-2 bg-accent text-background font-medium rounded-lg hover:bg-accent/90 transition-all duration-300 transform hover:scale-105"
+              className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 backdrop-blur-sm hover:scale-105 active:scale-95"
             >
               Book Now
             </a>
@@ -112,7 +112,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
             </button>
             <a
               href="tel:(786)571-1063"
-              className="block w-full px-4 py-2 border-2 border-white text-white font-medium rounded-lg text-center hover:bg-white/20 transition-all"
+              className="block w-full px-8 py-4 border-2 border-white text-white font-semibold rounded-lg text-center hover:bg-white/20 transition-all duration-300 backdrop-blur-sm hover:scale-105 active:scale-95"
             >
               Book Now
             </a>
