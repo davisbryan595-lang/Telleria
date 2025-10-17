@@ -16,30 +16,30 @@ interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     id: 1,
-    before: "/placeholder.jpg?height=600&width=800&query=car%20interior%20dirty%20before%20detailing%20messy",
+    before: "https://images.pexels.com/photos/6872601/pexels-photo-6872601.jpeg",
     after:
-      "/placeholder.jpg?height=600&width=800&query=car%20interior%20clean%20after%20professional%20detailing%20pristine",
+      "https://images.pexels.com/photos/244819/pexels-photo-244819.jpeg",
     title: "Interior Deep Clean",
     category: "Interior",
   },
   {
     id: 2,
-    before: "/placeholder.jpg?height=600&width=800&query=dirty%20car%20exterior%20dusty%20before%20wash",
-    after: "/placeholder.jpg?height=600&width=800&query=shiny%20car%20exterior%20after%20ceramic%20coating%20glossy",
+    before: "https://images.pexels.com/photos/9932885/pexels-photo-9932885.jpeg",
+    after: "https://images.pexels.com/photos/4870739/pexels-photo-4870739.jpeg",
     title: "Ceramic Coating",
     category: "Exterior",
   },
   {
     id: 3,
-    before: "/placeholder.jpg?height=600&width=800&query=car%20paint%20with%20swirls%20scratches%20imperfections",
-    after: "/placeholder.jpg?height=600&width=800&query=car%20paint%20perfect%20finish%20correction%20glossy",
+    before: "https://images.pexels.com/photos/6872601/pexels-photo-6872601.jpeg",
+    after: "https://images.pexels.com/photos/6872150/pexels-photo-6872150.jpeg",
     title: "Paint Correction",
     category: "Paint",
   },
   {
     id: 4,
-    before: "/placeholder.jpg?height=600&width=800&query=luxury%20car%20dirty%20muddy%20before%20detailing",
-    after: "/placeholder.jpg?height=600&width=800&query=luxury%20car%20pristine%20showroom%20after%20full%20detailing",
+    before: "https://images.pexels.com/photos/9932885/pexels-photo-9932885.jpeg",
+    after: "https://images.pexels.com/photos/244819/pexels-photo-244819.jpeg",
     title: "Full Detailing",
     category: "Full Service",
   },
