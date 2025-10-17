@@ -74,8 +74,8 @@ export default function Gallery() {
         <div
           className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">Our Work</h2>
-          <p className="text-lg text-foreground/70">See the transformation we deliver</p>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Our Work</h2>
+          <p className="text-lg text-white/70">See the transformation we deliver</p>
         </div>
 
         {/* Main Slider */}
@@ -131,8 +131,8 @@ export default function Gallery() {
 
           {/* Title and Category */}
           <div className="mt-6 text-center">
-            <h3 className="text-2xl font-serif font-bold text-foreground mb-2">{galleryItems[activeSlide].title}</h3>
-            <p className="text-foreground/60">{galleryItems[activeSlide].category}</p>
+            <h3 className="text-2xl font-serif font-bold text-white mb-2">{galleryItems[activeSlide].title}</h3>
+            <p className="text-white/60">{galleryItems[activeSlide].category}</p>
           </div>
         </div>
 

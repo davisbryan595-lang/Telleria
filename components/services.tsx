@@ -69,8 +69,8 @@ export default function Services() {
         <div
           className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">Our Services</h2>
-          <p className="text-lg text-foreground/70">Comprehensive detailing solutions for every need</p>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Our Services</h2>
+          <p className="text-lg text-white/70">Comprehensive detailing solutions for every need</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -95,11 +95,11 @@ export default function Services() {
                   {service.icon}
                 </div>
 
-                <h3 className="text-2xl font-serif font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
+                <h3 className="text-2xl font-serif font-bold text-white mb-3 group-hover:text-accent transition-colors duration-300">
                   {service.title}
                 </h3>
 
-                <p className="text-foreground/70 mb-6 group-hover:text-foreground/80 transition-colors duration-300">
+                <p className="text-white/70 mb-6 group-hover:text-white/80 transition-colors duration-300">
                   {service.description}
                 </p>
 
@@ -108,7 +108,7 @@ export default function Services() {
                   {service.features.map((feature, idx) => (
                     <li
                       key={idx}
-                      className="flex items-start gap-3 text-foreground/80 text-sm group-hover:text-foreground/90 transition-colors duration-300"
+                      className="flex items-start gap-3 text-white/80 text-sm group-hover:text-white/90 transition-colors duration-300"
                     >
                       <span className="text-accent mt-1 group-hover:scale-125 transition-transform duration-300">
                         ✓

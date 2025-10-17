@@ -77,8 +77,8 @@ export default function Testimonials() {
         <div
           className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">What Our Clients Say</h2>
-          <p className="text-lg text-foreground/70">Real reviews from satisfied customers</p>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">What Our Clients Say</h2>
+          <p className="text-lg text-white/70">Real reviews from satisfied customers</p>
         </div>
 
         {/* Main Testimonial */}
@@ -97,7 +97,7 @@ export default function Testimonials() {
             </div>
 
             {/* Quote */}
-            <p className="text-xl md:text-2xl font-serif text-foreground mb-8 italic transition-all duration-500">
+            <p className="text-xl md:text-2xl font-serif text-white mb-8 italic transition-all duration-500">
               "{testimonials[activeIndex].content}"
             </p>
 
@@ -112,8 +112,8 @@ export default function Testimonials() {
                 />
               </div>
               <div>
-                <p className="font-semibold text-foreground">{testimonials[activeIndex].name}</p>
-                <p className="text-foreground/60">{testimonials[activeIndex].role}</p>
+                <p className="font-semibold text-white">{testimonials[activeIndex].name}</p>
+                <p className="text-white/60">{testimonials[activeIndex].role}</p>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Testimonials() {
                   </span>
                 ))}
               </div>
-              <p className="text-foreground/80 mb-4 line-clamp-3 group-hover:text-foreground/90 transition-colors duration-300">
+              <p className="text-white/80 mb-4 line-clamp-3 group-hover:text-white/90 transition-colors duration-300">
                 {testimonial.content}
               </p>
               <div className="flex items-center gap-3">
@@ -165,8 +165,8 @@ export default function Testimonials() {
                   />
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">{testimonial.name}</p>
-                  <p className="text-xs text-foreground/60">{testimonial.role}</p>
+                  <p className="font-semibold text-sm text-white">{testimonial.name}</p>
+                  <p className="text-xs text-white/60">{testimonial.role}</p>
                 </div>
               </div>
             </div>
