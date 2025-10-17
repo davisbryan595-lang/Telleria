@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     role: "BMW Owner",
     content: "Telleria Detailing transformed my car. The attention to detail is incredible. Highly recommend!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=professional%20man%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/31422830/pexels-photo-31422830.png",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     role: "Mercedes Owner",
     content: "Best detailing service in Orlando. Professional, punctual, and the results speak for themselves.",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=professional%20woman%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
     role: "Audi Owner",
     content: "The ceramic coating has kept my car looking showroom fresh. Worth every penny!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=smiling%20man%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/14564869/pexels-photo-14564869.jpeg",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     role: "Tesla Owner",
     content: "Mobile detailing at its finest. They came to my home and did an amazing job. Highly satisfied!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=happy%20woman%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/7640433/pexels-photo-7640433.jpeg",
   },
 ]
 
