@@ -27,15 +27,14 @@ export default function Navigation({ isScrolled }: NavigationProps) {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 relative">
+            <div className="w-20 h-20 relative">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/terra-zAf9HUTddhi49GR5g5qWzln3BQeupu.jpg"
-                alt="Telleria Detailing"
+                src="https://images.pexels.com/photos/10358884/pexels-photo-10358884.jpeg"
+                alt="Telleria Detailing Logo"
                 fill
                 className="object-contain"
               />
             </div>
-            <span className="text-xl font-serif font-bold hidden sm:inline text-foreground">Telleria</span>
           </Link>
 
           {/* Desktop Menu */}
