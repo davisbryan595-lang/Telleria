@@ -27,12 +27,12 @@ export default function Navigation({ isScrolled }: NavigationProps) {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-40 h-40 relative">
+            <div className="w-40 h-40 relative animate-float group-hover:animate-float-slow transition-all duration-300">
               <Image
                 src="https://cdn.builder.io/api/v1/image/assets%2F6a80af1db8104ff4a1b5bea732d858c0%2F1843af1eee8b4a01afa8c033b736cb31?format=webp&width=800"
                 alt="Telleria Detailing Logo"
                 fill
-                className="object-contain"
+                className="object-contain group-hover:drop-shadow-lg"
               />
             </div>
           </Link>
