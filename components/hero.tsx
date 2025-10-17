@@ -15,7 +15,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url(/placeholder.jpg?height=1080&width=1920&query=luxury%20black%20car%20professional%20detailing%20service%20shiny%20finish)",
+            "url('https://images.pexels.com/photos/6872150/pexels-photo-6872150.jpeg')",
           backgroundAttachment: "fixed",
         }}
       >
