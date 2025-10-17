@@ -52,12 +52,12 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-1 group-hover:text-accent transition-colors duration-300">
+                  <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-accent transition-colors duration-300">
                     Phone
                   </h3>
                   <a
                     href="tel:(786)571-1063"
-                    className="text-foreground/70 hover:text-accent transition-colors duration-300"
+                    className="text-white/70 hover:text-accent transition-colors duration-300"
                   >
                     (786) 571-1063
                   </a>
