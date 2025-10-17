@@ -112,7 +112,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
             </button>
             <a
               href="tel:(786)571-1063"
-              className="block w-full px-4 py-2 border-2 border-white text-white font-medium rounded-lg text-center hover:bg-white/20 transition-all"
+              className="block w-full px-8 py-4 border-2 border-white text-white font-semibold rounded-lg text-center hover:bg-white/20 transition-all duration-300 backdrop-blur-sm hover:scale-105 active:scale-95"
             >
               Book Now
             </a>
