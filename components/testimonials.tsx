@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     role: "BMW Owner",
     content: "Telleria Detailing transformed my car. The attention to detail is incredible. Highly recommend!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=professional%20man%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/31422830/pexels-photo-31422830.png",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     role: "Mercedes Owner",
     content: "Best detailing service in Orlando. Professional, punctual, and the results speak for themselves.",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=professional%20woman%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
     role: "Audi Owner",
     content: "The ceramic coating has kept my car looking showroom fresh. Worth every penny!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=smiling%20man%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/14564869/pexels-photo-14564869.jpeg",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     role: "Tesla Owner",
     content: "Mobile detailing at its finest. They came to my home and did an amazing job. Highly satisfied!",
     rating: 5,
-    image: "/placeholder.jpg?height=200&width=200&query=happy%20woman%20portrait%20headshot",
+    image: "https://images.pexels.com/photos/7640433/pexels-photo-7640433.jpeg",
   },
 ]
 
@@ -77,8 +77,8 @@ export default function Testimonials() {
         <div
           className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">What Our Clients Say</h2>
-          <p className="text-lg text-foreground/70">Real reviews from satisfied customers</p>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">What Our Clients Say</h2>
+          <p className="text-lg text-white/70">Real reviews from satisfied customers</p>
         </div>
 
         {/* Main Testimonial */}
@@ -97,7 +97,7 @@ export default function Testimonials() {
             </div>
 
             {/* Quote */}
-            <p className="text-xl md:text-2xl font-serif text-foreground mb-8 italic transition-all duration-500">
+            <p className="text-xl md:text-2xl font-serif text-white mb-8 italic transition-all duration-500">
               "{testimonials[activeIndex].content}"
             </p>
 
@@ -112,8 +112,8 @@ export default function Testimonials() {
                 />
               </div>
               <div>
-                <p className="font-semibold text-foreground">{testimonials[activeIndex].name}</p>
-                <p className="text-foreground/60">{testimonials[activeIndex].role}</p>
+                <p className="font-semibold text-white">{testimonials[activeIndex].name}</p>
+                <p className="text-white/60">{testimonials[activeIndex].role}</p>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Testimonials() {
                   </span>
                 ))}
               </div>
-              <p className="text-foreground/80 mb-4 line-clamp-3 group-hover:text-foreground/90 transition-colors duration-300">
+              <p className="text-white/80 mb-4 line-clamp-3 group-hover:text-white/90 transition-colors duration-300">
                 {testimonial.content}
               </p>
               <div className="flex items-center gap-3">
@@ -165,8 +165,8 @@ export default function Testimonials() {
                   />
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">{testimonial.name}</p>
-                  <p className="text-xs text-foreground/60">{testimonial.role}</p>
+                  <p className="font-semibold text-sm text-white">{testimonial.name}</p>
+                  <p className="text-xs text-white/60">{testimonial.role}</p>
                 </div>
               </div>
             </div>

@@ -15,7 +15,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url(/placeholder.jpg?height=1080&width=1920&query=luxury%20black%20car%20professional%20detailing%20service%20shiny%20finish)",
+            "url('https://images.pexels.com/photos/6872150/pexels-photo-6872150.jpeg')",
           backgroundAttachment: "fixed",
         }}
       >
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:(786)571-1063"
-              className="px-8 py-4 bg-accent text-background font-semibold rounded-lg hover:bg-accent/90 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl hover:shadow-accent/50 active:scale-95"
+              className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 backdrop-blur-sm hover:scale-105 active:scale-95"
             >
               Book Now
             </a>

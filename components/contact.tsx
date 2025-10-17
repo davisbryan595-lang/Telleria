@@ -34,7 +34,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="animate-fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-8">Get In Touch</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-8">Get In Touch</h2>
 
             <div className="space-y-8">
               {/* Phone */}
@@ -52,12 +52,12 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-1 group-hover:text-accent transition-colors duration-300">
+                  <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-accent transition-colors duration-300">
                     Phone
                   </h3>
                   <a
                     href="tel:(786)571-1063"
-                    className="text-foreground/70 hover:text-accent transition-colors duration-300"
+                    className="text-white/70 hover:text-accent transition-colors duration-300"
                   >
                     (786) 571-1063
                   </a>
@@ -85,10 +85,10 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-1 group-hover:text-accent transition-colors duration-300">
+                  <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-accent transition-colors duration-300">
                     Service Area
                   </h3>
-                  <p className="text-foreground/70 group-hover:text-foreground/90 transition-colors duration-300">
+                  <p className="text-white/70 group-hover:text-white/90 transition-colors duration-300">
                     Orlando, FL, USA
                   </p>
                 </div>
@@ -109,13 +109,13 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-1 group-hover:text-accent transition-colors duration-300">
+                  <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-accent transition-colors duration-300">
                     Hours
                   </h3>
-                  <p className="text-foreground/70 group-hover:text-foreground/90 transition-colors duration-300">
+                  <p className="text-white/70 group-hover:text-white/90 transition-colors duration-300">
                     Monday - Sunday
                   </p>
-                  <p className="text-foreground/70 group-hover:text-foreground/90 transition-colors duration-300">
+                  <p className="text-white/70 group-hover:text-white/90 transition-colors duration-300">
                     8:00 AM - 6:00 PM
                   </p>
                 </div>
@@ -132,7 +132,7 @@ export default function Contact() {
               <div className="space-y-6">
                 {/* Name */}
                 <div className="group">
-                  <label className="block text-sm font-medium text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                  <label className="block text-sm font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300">
                     Full Name
                   </label>
                   <input
@@ -141,14 +141,14 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-foreground placeholder-foreground/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
+                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
                     placeholder="Your name"
                   />
                 </div>
 
                 {/* Email */}
                 <div className="group">
-                  <label className="block text-sm font-medium text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                  <label className="block text-sm font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300">
                     Email
                   </label>
                   <input
@@ -157,14 +157,14 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-foreground placeholder-foreground/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
+                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
                     placeholder="your@email.com"
                   />
                 </div>
 
                 {/* Phone */}
                 <div className="group">
-                  <label className="block text-sm font-medium text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                  <label className="block text-sm font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300">
                     Phone
                   </label>
                   <input
@@ -173,14 +173,14 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-foreground placeholder-foreground/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
+                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
                     placeholder="(786) 571-1063"
                   />
                 </div>
 
                 {/* Service */}
                 <div className="group">
-                  <label className="block text-sm font-medium text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                  <label className="block text-sm font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300">
                     Service
                   </label>
                   <select
@@ -188,7 +188,7 @@ export default function Contact() {
                     value={formData.service}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-foreground focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
+                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-white focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40"
                   >
                     <option value="">Select a service</option>
                     <option value="interior">Interior Detailing</option>
@@ -202,7 +202,7 @@ export default function Contact() {
 
                 {/* Message */}
                 <div className="group">
-                  <label className="block text-sm font-medium text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                  <label className="block text-sm font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300">
                     Message
                   </label>
                   <textarea
@@ -210,7 +210,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-foreground placeholder-foreground/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40 resize-none"
+                    className="w-full px-4 py-3 bg-background-secondary border border-accent/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all duration-300 hover:border-accent/40 resize-none"
                     placeholder="Tell us about your vehicle..."
                   />
                 </div>

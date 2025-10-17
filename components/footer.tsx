@@ -7,14 +7,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-serif font-bold text-foreground mb-4">Telleria Detailing</h3>
-            <p className="text-foreground/60 text-sm">Premium mobile detailing services in Orlando, FL</p>
+            <h3 className="text-lg font-serif font-bold text-white mb-4">Telleria Detailing</h3>
+            <p className="text-white/60 text-sm">Premium mobile detailing services in Orlando, FL</p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Services</h4>
-            <ul className="space-y-2 text-sm text-foreground/60">
+            <h4 className="font-semibold text-white mb-4">Services</h4>
+            <ul className="space-y-2 text-sm text-white/60">
               <li>
                 <a href="#services" className="hover:text-accent transition-colors">
                   Interior Detailing
@@ -35,8 +35,8 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Contact</h4>
-            <ul className="space-y-2 text-sm text-foreground/60">
+            <h4 className="font-semibold text-white mb-4">Contact</h4>
+            <ul className="space-y-2 text-sm text-white/60">
               <li>
                 <a href="tel:(786)571-1063" className="hover:text-accent transition-colors">
                   (786) 571-1063
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
+            <h4 className="font-semibold text-white mb-4">Follow Us</h4>
             <div className="flex gap-4">
               <a
                 href="#"
@@ -87,7 +87,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-accent/10 pt-8">
-          <p className="text-center text-sm text-foreground/60">
+          <p className="text-center text-sm text-white/60">
             © {currentYear} Telleria Detailing. All rights reserved.
           </p>
         </div>
